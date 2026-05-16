@@ -1,0 +1,11 @@
+{
+  "app/page.tsx -> @/game/GameCanvas": {
+    "id": 8826,
+    "files": [
+      "static/chunks/b536a0f1.0d565181d809fd82.js",
+      "static/chunks/bd904a5c.355717d33ace7e30.js",
+      "static/chunks/496.35620af02e1b0235.js",
+      "static/chunks/826.b6b1071d849638c0.js"
+    ]
+  }
+}

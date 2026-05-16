@@ -1,0 +1,31 @@
+{
+  "npcs": [
+    {
+      "id": "merchant",
+      "name": "蒸気商人",
+      "nameEn": "Steam Merchant",
+      "color": "#4a2810",
+      "startPos": [3, 0.9, 2],
+      "patrolRadius": 5,
+      "speed": 1.2
+    },
+    {
+      "id": "worker",
+      "name": "工場労働者",
+      "nameEn": "Factory Worker",
+      "color": "#1a3050",
+      "startPos": [6, 0.9, -2],
+      "patrolRadius": 4,
+      "speed": 0.9
+    },
+    {
+      "id": "mysterious",
+      "name": "謎の人物",
+      "nameEn": "Mysterious Figure",
+      "color": "#200820",
+      "startPos": [-2, 0.9, 8],
+      "patrolRadius": 3,
+      "speed": 0.6
+    }
+  ]
+}

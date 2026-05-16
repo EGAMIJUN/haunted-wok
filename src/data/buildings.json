@@ -1,0 +1,49 @@
+{
+  "buildings": [
+    {
+      "id": "restaurant",
+      "name": "怪夜食堂",
+      "nameEn": "Phantom Night Diner",
+      "type": "restaurant",
+      "bounds": { "minX": -9, "maxX": -1, "minZ": -9, "maxZ": -3 },
+      "entrance": { "x": -5, "z": -3 },
+      "hackables": [
+        { "id": "valve_kitchen", "type": "valve", "position": [-6.5, 1.5, -3.5], "label": "蒸気バルブ", "mysteryId": "M1" },
+        { "id": "door_kitchen_secret", "type": "door", "position": [-5, 1.5, -8.5], "label": "厨房の秘密扉", "mysteryId": "M5" }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "大明蒸気工廠",
+      "nameEn": "Daimyo Steam Works",
+      "type": "factory",
+      "bounds": { "minX": 2, "maxX": 10, "minZ": -12, "maxZ": -4 },
+      "entrance": { "x": 6, "z": -4 },
+      "hackables": [
+        { "id": "gear_factory", "type": "gear", "position": [2.2, 2.5, -8], "label": "巨大歯車", "mysteryId": "M2" }
+      ]
+    },
+    {
+      "id": "alley",
+      "name": "怪路地",
+      "nameEn": "Haunted Alley",
+      "type": "alley",
+      "bounds": { "minX": -4, "maxX": 4, "minZ": 2, "maxZ": 10 },
+      "entrance": { "x": 0, "z": 2 },
+      "hackables": [
+        { "id": "door_alley", "type": "door", "position": [0, 1.5, 9.5], "label": "秘密の扉", "mysteryId": "M3" }
+      ]
+    },
+    {
+      "id": "plaza",
+      "name": "中央広場",
+      "nameEn": "Central Plaza",
+      "type": "plaza",
+      "bounds": { "minX": -8, "maxX": 8, "minZ": -4, "maxZ": 4 },
+      "entrance": null,
+      "hackables": [
+        { "id": "valve_plaza", "type": "valve", "position": [2.5, 1.2, 1], "label": "噴水バルブ", "mysteryId": "M4" }
+      ]
+    }
+  ]
+}
