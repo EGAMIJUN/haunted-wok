@@ -16,7 +16,7 @@ function Ground() {
 
 // Sparse neon grid: every 4 units = 11 strips per direction = 22 meshes total
 function NeonGrid() {
-  const strips: JSX.Element[] = []
+  const strips: React.JSX.Element[] = []
   for (let i = -20; i <= 20; i += 4) {
     const color = NEON_PALETTE[Math.abs(i / 4) % 6]
     strips.push(
@@ -99,7 +99,7 @@ function Restaurant() {
   )
 }
 
-function FactoryGear({ gearRef }: { gearRef: React.RefObject<THREE.Mesh> }) {
+function FactoryGear({ gearRef }: { gearRef: React.RefObject<THREE.Mesh | null> }) {
   return (
     <mesh ref={gearRef} position={[6, 2.5, -4.1]}>
       <torusGeometry args={[0.9, 0.3, 5, 8]} />
